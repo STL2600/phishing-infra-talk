@@ -47,7 +47,7 @@ jobs:
             --slide-level 2
             -t revealjs
             -V theme=night
-            -V revealjs-url=https://app.unpkg.com/reveal.js@4.6.1/files
+            -V revealjs-url=https://unpkg.com/reveal.js@4.6.1
             -s dist/talk.md
             -o dist/index.html
 
