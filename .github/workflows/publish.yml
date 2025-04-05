@@ -46,6 +46,7 @@ jobs:
           args: >-
             --slide-level 2
             --standalone
+            --self-contained
             -t revealjs
             -V theme=night
             -s dist/talk.md
