@@ -2,8 +2,7 @@ name: Long Usage
 
 on: push
 
-permissions:
-  pages: write
+permissions: pages: write
   id-token: write
 
 jobs:
@@ -45,10 +44,9 @@ jobs:
         with:
           args: >-
             --slide-level 2
-            --standalone
-            --embed-resources
             -t revealjs
             -V theme=night
+            -V revealjs-url='https://app.unpkg.com/reveal.js@4.6.1'
             -s dist/talk.md
             -o dist/index.html
 
